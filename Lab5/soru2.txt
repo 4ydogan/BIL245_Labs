@@ -1,0 +1,19 @@
+Mustafa Aydoğan
+191101002
+
+MSE kullanarak gürültüyü ne kadar azalttığımızı anlayabiliriz.
+Aynı zamanda MSE arttıkça görüntü bulanıklaşmaktadır. 
+
+Eğer bir fonksiyon yazabilirsek en ideal threshold değerini bulabiliriz.
+
+f(x) = görüntü netliği 
+g(x) = gürültü 
+
+f(threshold) = 1000 - (MSE x threshold)
+g(threshold) = 1000 - (MSE x threshold)
+
+(fonksiyonlar temsilidir)
+
+ideal = f(threshold) - g(threshold)
+
+ideal fonksiyonunun türevini sıfıra eşitlersek en ideal threshold değerini bulabiliriz.

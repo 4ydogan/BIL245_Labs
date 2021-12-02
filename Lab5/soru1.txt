@@ -1,0 +1,12 @@
+Mustafa Aydoğan
+191101002
+
+Threshold kullanırsak belli değerlerden küçük olan kısmı sıfır yaparız.
+S matrisi büyükten küçüğe sıralandığı için benzer bir iş yapılmış olur.
+
+Aralarındaki fark şudur:
+Rank-k approximationda en büyük k değeri ile işlem yapılır.
+Threshold kullanımında ise threshold'dan küçük değerler sıfır olacağı için büyük değerler için işlem yapmış oluruz.
+Matris çarpımında yapılırken rank-k daha az işlem yapar.
+
+Treshold değerine eşit olan değerin bulunduğu sütün sayısı ile 'k' değeri eşit olursa aynı işi yapmış oluruz.  
